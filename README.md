@@ -38,7 +38,7 @@ To set up the Filtering and Edge Detection Studio environment, follow these step
 6. Thresholding and Clustering
 7. Face Recognition and Detection
 
-## Basic Operations, filters and Edge Detection
+### Basic Operations, filters and Edge Detection
 ### Histograms and Distribution Curves
 ![alt text](assets/image-20.png)
 Calculates the frequency distribution of pixel values to draw histograms for both colored and greyscale images. It includes cumulative distributions to analyze pixel value accumulations.
