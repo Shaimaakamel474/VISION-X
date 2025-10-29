@@ -116,8 +116,8 @@ Active Contour (Snake) is a computer vision technique used for image segmentatio
 Using its vertex coordinates of the active contour.
 
 ### Chain Code Generation
-
 Using 8-connected Chain code rules.
+### Corner detection and SIFT
 ## Corner Detection
 Identifying corners, edges, and flat areas in the image based on the response of a corner detection operator
 ### Harris and λ- Operators
