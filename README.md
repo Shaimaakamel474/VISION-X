@@ -4,6 +4,18 @@
 
 Welcome to our Image Processing and Computer Vision Studio! This project, developed as part of the Computer Vision course at Cairo University, provides a collection of image processing tools.
 
+
+The project is divided into the following **sub-projects**:
+
+1. [Basic Operations, Filtering and Edge Detection](#basic-operations-filtering-and-edge-detection)
+2. [Hough Transform and Shape Detection](#hough-transform-and-shape-detection)
+3. [Active Contour (Snake) Algorithm](#active-contour-snake-algorithm)
+4. [Corner Detection and SIFT](#corner-detection-and-sift)
+5. [Thresholding and Clustering](#thresholding-and-clustering)
+6. [Face Detection and Recognition](#face-detection-and-recognition)
+
+
+
 ## Setup and Installation
 
 To set up the Filtering and Edge Detection Studio environment, follow these steps:
