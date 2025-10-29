@@ -80,18 +80,15 @@ Combines two images by blending high-frequency details from one with low-frequen
 
 ## Hough Transform and Detection
 Detects different shapes using Hough Transform by converting to grayscale, applying Gaussian blur, Canny edge detection, updating a Hough accumulator array and finding its peaks to detect these shapes. It includes:
+- **Line Detection**  
+  ![Line Detection](assets/line_hough.png)
 
-- **Line Detection** 
-<br>
-![alt text](https://github.com/Shaimaakamel474/VISION-X/blob/main/assets/line_hough.png)
+- **Circle Detection**  
+  ![Circle Detection](assets/image-3.png)
 
-- **Circle Detection** 
-<br>
-![alt text](assets/image-3.png)
+- **Ellipse Detection**  
+  ![Ellipse Detection](assets/image-4.png)
 
-- **Ellipse Detection** 
-<br>
-![alt text](assets/image-4.png)
 
 ## Active Contour Model (Snake Algorithm)
 Active Contour (Snake) is a computer vision technique used for image segmentation and edge detection. It dynamically adjusts a curve to delineate object boundaries by balancing internal smoothness and external image features.
