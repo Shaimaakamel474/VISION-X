@@ -102,7 +102,7 @@ Detects different shapes using Hough Transform by converting to grayscale, apply
   ![Ellipse Detection](assets/image-4.png)
 
 
-## Active Contour Model (Snake Algorithm)
+### Active Contour Model (Snake Algorithm)
 Active Contour (Snake) is a computer vision technique used for image segmentation and edge detection. It dynamically adjusts a curve to delineate object boundaries by balancing internal smoothness and external image features.
 ![alt text](assets/image-5.png)
 
