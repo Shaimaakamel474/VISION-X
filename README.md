@@ -38,7 +38,7 @@ To set up the Filtering and Edge Detection Studio environment, follow these step
 6. Thresholding and Clustering
 7. Face Recognition and Detection
 
-### Basic operations filtering and edge-detection
+### Basic operations filtering and edge detection
 ### Histograms and Distribution Curves
 ![alt text](assets/image-20.png)
 Calculates the frequency distribution of pixel values to draw histograms for both colored and greyscale images. It includes cumulative distributions to analyze pixel value accumulations.
@@ -90,7 +90,7 @@ Scales pixel values to a specific range to ensure consistent processing and disp
 ![alt text](assets/image-22.png)
 Combines two images by blending high-frequency details from one with low-frequency content from another. This technique reveals distinct features depending on viewing distance, with close-up views showing fine details and distant views showing overall structure.
 
-## Hough Transform and Detection
+### Hough Transform and shape detection 
 Detects different shapes using Hough Transform by converting to grayscale, applying Gaussian blur, Canny edge detection, updating a Hough accumulator array and finding its peaks to detect these shapes. It includes:
 - **Line Detection**  
   ![Line Detection](assets/line_hough.png)
