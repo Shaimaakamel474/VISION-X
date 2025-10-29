@@ -83,7 +83,7 @@ Detects different shapes using Hough Transform by converting to grayscale, apply
 
 - **Line Detection** 
 <br>
-![alt text](assets/line_hough.png)
+![alt text](https://github.com/Shaimaakamel474/VISION-X/blob/main/assets/line_hough.png)
 
 - **Circle Detection** 
 <br>
