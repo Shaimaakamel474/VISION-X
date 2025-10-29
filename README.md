@@ -7,7 +7,7 @@ Welcome to our Image Processing and Computer Vision Studio! This project, develo
 
 The project is divided into the following **sub-projects**:
 
-1. [Basic Operations, Filtering and Edge Detection](#basic-operations-filtering-and-edge-detection)
+1. [Basic Operations, Filtering and Edge Detection](#Basic operations filtering and edge-detection)
 2. [Hough Transform and Shape Detection](#hough-transform-and-shape-detection)
 3. [Active Contour (Snake) Algorithm](#active-contour-snake-algorithm)
 4. [Corner Detection and SIFT](#corner-detection-and-sift)
@@ -38,7 +38,7 @@ To set up the Filtering and Edge Detection Studio environment, follow these step
 6. Thresholding and Clustering
 7. Face Recognition and Detection
 
-### #basic-operations-filtering-and-edge-detection
+### Basic operations filtering and edge-detection
 ### Histograms and Distribution Curves
 ![alt text](assets/image-20.png)
 Calculates the frequency distribution of pixel values to draw histograms for both colored and greyscale images. It includes cumulative distributions to analyze pixel value accumulations.
