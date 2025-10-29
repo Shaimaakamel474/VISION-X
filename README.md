@@ -7,7 +7,7 @@ Welcome to our Image Processing and Computer Vision Studio! This project, develo
 
 The project is divided into the following **sub-projects**:
 
-1. [Basic Operations, Filtering and Edge Detection](#Basic operations filtering and edge-detection)
+1. [Basic Operations, Filtering and Edge Detection](#Basic-operations-filtering-and-edge-detection)
 2. [Hough Transform and Shape Detection](#hough-transform-and-shape-detection)
 3. [Active Contour (Snake) Algorithm](#active-contour-snake-algorithm)
 4. [Corner Detection and SIFT](#corner-detection-and-sift)
