@@ -7,12 +7,11 @@ Welcome to our Image Processing and Computer Vision Studio! This project, develo
 
 The project is divided into the following **sub-projects**:
 
-1. [Basic Operations, Filtering and Edge Detection](#Basic-operations-filtering-and-edge-detection)
-2. [Hough Transform and Shape Detection](#hough-transform-and-shape-detection)
-3. [Active Contour (Snake) Algorithm](#active-contour-snake-algorithm)
-4. [Corner Detection and SIFT](#corner-detection-and-sift)
-5. [Thresholding and Clustering](#thresholding-and-clustering)
-6. [Face Detection and Recognition](#face-detection-and-recognition)
+1. [Image Enhancement and Hybrid Visualization](#Image-Enhancement-and-Hybrid-Visualization)
+2. [Geometric Feature Extraction and Contour-Based Analysis](#Geometric-Feature-Extraction-and-Contour-Based-Analysis)
+3. [Keypoint Detection and Image Matching](#Keypoint-Detection-and-Image-Matching)
+4. [Advanced Image Segmentation Techniques](#Advanced-Image-Segmentation-Techniques)
+5. [Biometric Recognition and Medical Imaging Analysis](#Biometric-Recognition-and-Medical-Imaging-Analysis)
 
 
 
@@ -38,7 +37,7 @@ To set up the Filtering and Edge Detection Studio environment, follow these step
 6. Thresholding and Clustering
 7. Face Recognition and Detection
 
-### Basic operations filtering and edge detection
+### Image Enhancement and Hybrid Visualization
 ### Histograms and Distribution Curves
 ![alt text](assets/image-20.png)
 Calculates the frequency distribution of pixel values to draw histograms for both colored and greyscale images. It includes cumulative distributions to analyze pixel value accumulations.
@@ -90,6 +89,10 @@ Scales pixel values to a specific range to ensure consistent processing and disp
 ![alt text](assets/image-22.png)
 Combines two images by blending high-frequency details from one with low-frequency content from another. This technique reveals distinct features depending on viewing distance, with close-up views showing fine details and distant views showing overall structure.
 
+
+### Geometric Feature Extraction and Contour-Based Analysis
+
+
 ### Hough Transform and shape detection 
 Detects different shapes using Hough Transform by converting to grayscale, applying Gaussian blur, Canny edge detection, updating a Hough accumulator array and finding its peaks to detect these shapes. It includes:
 - **Line Detection**  
@@ -102,7 +105,7 @@ Detects different shapes using Hough Transform by converting to grayscale, apply
   ![Ellipse Detection](assets/image-4.png)
 
 
-### Active Contour snake algorithm
+### Active Contour (Snake) Model
 Active Contour (Snake) is a computer vision technique used for image segmentation and edge detection. It dynamically adjusts a curve to delineate object boundaries by balancing internal smoothness and external image features.
 ![alt text](assets/image-5.png)
 
@@ -117,7 +120,10 @@ Using its vertex coordinates of the active contour.
 
 ### Chain Code Generation
 Using 8-connected Chain code rules.
-### Corner detection and SIFT
+
+
+### Keypoint Detection and Image Matching
+
 ## Corner Detection
 Identifying corners, edges, and flat areas in the image based on the response of a corner detection operator
 ### Harris and λ- Operators
@@ -149,11 +155,11 @@ Descriptors for key points are computed based on gradient magnitude and orientat
 
 ![alt text](assets/sift.jpg)
 
-## Thresholding and Clustering
+### Advanced Image Segmentation Techniques
+
 ### K-Mean Clustering Technique 
 ![alt text](assets/image-6.png)
 Implements the KMeans clustering algorithm, used to partition data into distinct clusters based on their features.
-
 
 
 ### Mean Shift Cluster Technique
@@ -196,7 +202,7 @@ Optimizes thresholds by analyzing the histogram and cumulative distribution of g
 ![alt text](assets/image-17.png)  
 Divides the image into sections, applies global spectral thresholding to each section, and reconstructs the image by combining the thresholded sections.
 
-## Face Detection and Recognition
+### Biometric Recognition and Medical Imaging Analysis
 
 ### Face Detection
 ![alt text](assets/image-18.png)
